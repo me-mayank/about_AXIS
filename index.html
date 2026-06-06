@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About_AXIS</title>
+    <!-- Favicon link -->
+    <link rel="icon" type="image/jpeg" href="assets/images/favicon.jpg">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Access the classified AXIS System Archive. Explore the accountability-driven execution principles, behavioral diagnostic diagnostics, system directives, and terminal interface overview.">
+    <meta name="keywords" content="AXIS, accountability system, behavioral reports, task management, execution framework, AI analysis">
+    <meta name="author" content="AXIS System">
+    
+    <!-- Link to custom stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="scanline-block">
+    <!-- Scanline overlay activated in idle state -->
+    <div id="scanline-overlay"></div>
+    <!-- Glitch overlay for full-screen distortion and noise -->
+    <div id="glitch-overlay"></div>
+
+    <!-- SECTION 01: SYSTEM INITIALIZATION (LOADER SCREEN) -->
+    <section id="loader-section" aria-label="System Boot Loader">
+        <div class="logo-container">
+            <h1 class="axis-logo text-glitch" id="axis-primary-logo">AXIS</h1>
+            <div style="color: var(--text-muted); font-size: 11px; letter-spacing: 4px; margin-top: -10px;">OPERATIONAL ACCOUNTABILITY OS</div>
+        </div>
+        
+        <div class="loader-terminal system-corners" id="boot-terminal">
+            <div class="system-corners-ticks"></div>
+            <!-- Dynamic terminal typing elements -->
+            <div class="terminal-line" id="line-1">&gt; INITIALIZING AXIS SYSTEM...</div>
+            <div class="terminal-line" id="line-2">&gt; LOADING ACCOUNTABILITY FRAMEWORK...</div>
+            <div class="terminal-line" id="line-3">&gt; MOUNTING EXECUTION ENGINE...</div>
+            <div class="terminal-line" id="line-4">&gt; VERIFYING DATA INTEGRITY...</div>
+            <div class="terminal-line" id="line-5">&gt; AUTHENTICATING OPERATOR...</div>
+            <div class="terminal-line nominal" id="line-6">&gt; ALL SYSTEMS NOMINAL.</div>
+            <div class="terminal-line" id="line-7">&gt; LAUNCHING INTERFACE...</div>
+            
+            <!-- Progress Bar -->
+            <div class="progress-bar-container" id="boot-progress-container">
+                <div class="progress-bar-labels">
+                    <span>INITIALIZATION PROGRESS</span>
+                    <span id="progress-percent">0%</span>
+                </div>
+                <div class="progress-bar-track">
+                    <div class="progress-bar-fill" id="boot-progress-fill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="btn-enter-archive" id="enter-button-container">
+            <button class="btn-bracket" id="btn-enter-system" aria-label="Enter System Archive">Operator Access Granted</button>
+        </div>
+        
+        <div style="position: absolute; bottom: 20px; font-size: 10px; color: var(--text-muted); letter-spacing: 2px;">
+            ◆ AXIS_OS // BUILD [ 07.13.37 ] - OPERATIONAL SYSTEM READY
+        </div>
+    </section>
+
+    <!-- MAIN SYSTEM CONTENT (revealed after clicking enter) -->
+    <main id="archive-content" aria-label="Main Archive Portal">
+        <!-- Floating HUD Header -->
+        <header class="hud-header">
+            <div class="container hud-inner">
+                <div class="hud-title" id="hud-system-title">AXIS // SYSTEM ARCHIVE</div>
+                <div class="hud-status">
+                    <div>CLASSIFICATION: <span class="cyan">OPERATOR ACCESS GRANTED</span></div>
+                    <div>SYS_LOCK: <span class="cyan">ACTIVE</span></div>
+                    <div>RECORDS: <span class="green">3 ARCHIVED</span></div>
+                </div>
+            </div>
+        </header>
+        <!-- System Architect Header Banner -->
+        <div class="container reveal-on-scroll" id="architect-header-banner">
+            <div class="system-corners">
+                <div class="system-corners-ticks"></div>
+                <div class="architect-info">
+                    SYSTEM ARCHITECT: <span style="color: var(--neon-cyan); font-weight: bold;">MAYANK TRIPATHI</span>
+                </div>
+                <div class="architect-links">
+                    <a href="https://axis-ten-ochre.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-bracket" aria-label="Launch AXIS System">Use AXIS</a>
+                    <a href="https://github.com/me-mayank" target="_blank" rel="noopener noreferrer" class="btn-bracket" aria-label="GitHub Profile">GitHub</a>
+                    <a href="https://www.linkedin.com/in/mayank-tripathi-ba4917327/" target="_blank" rel="noopener noreferrer" class="btn-bracket" aria-label="LinkedIn Profile">LinkedIn</a>
+                </div>
+            </div>
+            <div class="architect-full-form">
+                AXIS: ACCOUNTABILITY-DRIVEN EXECUTION &amp; ITERATIVE STRUCTURE
+            </div>
+        </div>
+        <!-- SECTION 03: WHY AXIS EXISTS (THE AXIOM) -->
+        <section id="axiom-section">
+            <div class="container reveal-on-scroll">
+                <h2 class="section-title">Why AXIS Exists</h2>
+                <div class="section-subtitle">Core Philosophy Comparison</div>
+                
+                <div class="axiom-banner">
+                    <!-- Traditional Planning -->
+                    <div class="axiom-block planning system-corners" id="axiom-planning">
+                        <div class="system-corners-ticks"></div>
+                        <div>
+                            <h3>Traditional Planning</h3>
+                            <p>Optimized for dreaming. You create lists, move deadlines, ignore slippage, and rewrite task parameters on the fly. The tools accommodate your procrastination by hiding failure behind beautiful animations and infinite logs.</p>
+                        </div>
+                        <div class="axiom-highlight">Planning Theater</div>
+                    </div>
+
+                    <!-- Operational Accountability -->
+                    <div class="axiom-block accountability system-corners" id="axiom-accountability">
+                        <div class="system-corners-ticks"></div>
+                        <div>
+                            <h3>Operational Accountability</h3>
+                            <p>AXIS optimizes execution. Your plan becomes an immutable commitment once the day is locked. You face mandatory reviews, explain failures, and generate cold, objective data to feed iterative optimization.</p>
+                        </div>
+                        <div class="axiom-highlight">Axis Execution</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 02: BEHAVIORAL FAILURE DIAGNOSTIC -->
+        <section id="diagnostic-section" class="container reveal-on-scroll">
+            <h2 class="section-title">Behavioral Failure Diagnostic</h2>
+            <div class="section-subtitle">System Diagnosis Protocol</div>
+            
+            <p class="diagnostic-intro">
+                Most productivity tools compile logs of tasks you complete. They ignore the tasks you don't. AXIS diagnoses behavior by forcing you to face execution friction. Click any diagnostic prompt to examine systemic causes.
+            </p>
+
+            <div class="diagnostic-list" id="diagnostic-accordion" role="tablist">
+                <!-- Diagnostic 1 -->
+                <div class="diagnostic-wrapper">
+                    <div class="diagnostic-item" id="diag-item-1" role="tab" aria-expanded="false" aria-controls="diag-desc-1" tabindex="0">
+                        <span class="diagnostic-question">Why do certain tasks always get postponed?</span>
+                        <span class="expand-tick">+</span>
+                    </div>
+                    <div class="diagnostic-details" id="diag-desc-1" role="tabpanel" aria-labelledby="diag-item-1">
+                        <div class="diagnostic-details-inner">
+                            <p><strong>The Diagnosis:</strong> Tasks get postponed because standard managers make planning cheap. You are allowed to reschedule tasks with a single swipe, removing any immediate cost of failure.</p>
+                            <p><strong>The AXIS Resolution:</strong> Once you commit to a day in AXIS, the system locks. A task cannot be rescheduled; it must either be completed, logged as a partial success, or declared a failure. Postponement is replaced by a formal verdict.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diagnostic 2 -->
+                <div class="diagnostic-wrapper">
+                    <div class="diagnostic-item" id="diag-item-2" role="tab" aria-expanded="false" aria-controls="diag-desc-2" tabindex="0">
+                        <span class="diagnostic-question">Why does discipline fluctuate?</span>
+                        <span class="expand-tick">+</span>
+                    </div>
+                    <div class="diagnostic-details" id="diag-desc-2" role="tabpanel" aria-labelledby="diag-item-2">
+                        <div class="diagnostic-details-inner">
+                            <p><strong>The Diagnosis:</strong> Motivation is a transient emotional state. When plans rely on motivation rather than committed structure, execution collapses as soon as cognitive fatigue sets in.</p>
+                            <p><strong>The AXIS Resolution:</strong> Directives replace motivation. By creating explicit boundaries, the system structures decisions ahead of time. You execution behavior is documented, shifting dependency away from feelings toward structured commitments.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diagnostic 3 -->
+                <div class="diagnostic-wrapper">
+                    <div class="diagnostic-item" id="diag-item-3" role="tab" aria-expanded="false" aria-controls="diag-desc-3" tabindex="0">
+                        <span class="diagnostic-question">Why do productive days collapse?</span>
+                        <span class="expand-tick">+</span>
+                    </div>
+                    <div class="diagnostic-details" id="diag-desc-3" role="tabpanel" aria-labelledby="diag-item-3">
+                        <div class="diagnostic-details-inner">
+                            <p><strong>The Diagnosis:</strong> A streak of high-energy days often creates overconfidence. You plan an excessive volume of work for the following days, leading to burnout, failure to execute, and complete momentum loss.</p>
+                            <p><strong>The AXIS Resolution:</strong> Strict daily reviews show you your historical completion capacity. By analyzing your average output logs, the system helps you commit to sustainable workloads, smoothing the peaks and valleys.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diagnostic 4 -->
+                <div class="diagnostic-wrapper">
+                    <div class="diagnostic-item" id="diag-item-4" role="tab" aria-expanded="false" aria-controls="diag-desc-4" tabindex="0">
+                        <span class="diagnostic-question">Why do the same mistakes repeat?</span>
+                        <span class="expand-tick">+</span>
+                    </div>
+                    <div class="diagnostic-details" id="diag-desc-4" role="tabpanel" aria-labelledby="diag-item-4">
+                        <div class="diagnostic-details-inner">
+                            <p><strong>The Diagnosis:</strong> When tasks fail in traditional checklists, they either roll over silently or disappear. Because the friction of failure is hidden, there is no structural prompt to analyze the root cause.</p>
+                            <p><strong>The AXIS Resolution:</strong> In AXIS, a failed task is a data event. The system forces you to input an explicit reason for the failure. By documenting these diagnoses, you create a behavioral audit trail that exposes recurring triggers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diagnostic 5 -->
+                <div class="diagnostic-wrapper">
+                    <div class="diagnostic-item" id="diag-item-5" role="tab" aria-expanded="false" aria-controls="diag-desc-5" tabindex="0">
+                        <span class="diagnostic-question">Why do task lists grow without results?</span>
+                        <span class="expand-tick">+</span>
+                    </div>
+                    <div class="diagnostic-details" id="diag-desc-5" role="tabpanel" aria-labelledby="diag-item-5">
+                        <div class="diagnostic-details-inner">
+                            <p><strong>The Diagnosis:</strong> Todo apps are infinite scroll canvases. Adding items feels like progress, but it is just planning theater. An unconstrained list decouples daily action from realistic capacity.</p>
+                            <p><strong>The AXIS Resolution:</strong> Constraints breed execution. AXIS enforces limits. A locked day forces a strict subset of tasks, and progression is blocked entirely until the current operational ledger is finalized.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 04: SYSTEM DIRECTIVES -->
+        <section id="directives-section" class="container reveal-on-scroll">
+            <h2 class="section-title">System Directives</h2>
+            <div class="section-subtitle">Core Execution Protocols</div>
+            
+            <div class="directives-grid">
+                <!-- Directive 1 -->
+                <div class="directive-card system-card system-corners" id="directive-01">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 01</span>
+                    <h3 class="directive-title">Plan &rarr; Commit</h3>
+                    <p class="directive-desc">Create your tasks, then lock the operational day. Once locked, the day is sealed. No adding, editing, or deleting tasks. The plan transitions from a flexible list to an immutable commitment.</p>
+                </div>
+
+                <!-- Directive 2 -->
+                <div class="directive-card system-card system-corners" id="directive-02">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 02</span>
+                    <h3 class="directive-title">Closure Before Progression</h3>
+                    <p class="directive-desc">The SYSTEM LOCK ACTIVE protocol prevents you from beginning a new planning day until the current day is reviewed. You must face the operational reality of yesterday before planning today.</p>
+                </div>
+
+                <!-- Directive 3 -->
+                <div class="directive-card system-card system-corners" id="directive-03">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 03</span>
+                    <h3 class="directive-title">Every Task Needs a Verdict</h3>
+                    <p class="directive-desc">Nothing stays in limbo. Every task must be closed out with a strict verdict: Done, Partially Done, or Failed. No item is allowed to slip away, be ignored, or disappear.</p>
+                </div>
+
+                <!-- Directive 4 -->
+                <div class="directive-card system-card system-corners" id="directive-04">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 04</span>
+                    <h3 class="directive-title">Failure Must Be Explained</h3>
+                    <p class="directive-desc">Failed tasks trigger a mandatory diagnosis. You must document the cause of failure. This mechanism transforms errors into structured data, converting failures into behavioral insight.</p>
+                </div>
+
+                <!-- Directive 5 -->
+                <div class="directive-card system-card system-corners" id="directive-05">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 05</span>
+                    <h3 class="directive-title">Reflection Creates Awareness</h3>
+                    <p class="directive-desc">While task logs list what happened, reflections record why it happened. Documenting your mental state at the end of the day compiles behavioral awareness over time.</p>
+                </div>
+
+                <!-- Directive 6 -->
+                <div class="directive-card system-card system-corners" id="directive-06">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 06</span>
+                    <h3 class="directive-title">Immutable Memory</h3>
+                    <p class="directive-desc">Reviewed operational days are written to permanent archives. They cannot be modified, deleted, or retrospectively cleaned. Honesty is enforced through system-level immutability.</p>
+                </div>
+
+                <!-- Directive 7 -->
+                <div class="directive-card system-card system-corners" id="directive-07" style="grid-column: 1 / -1; min-height: auto;">
+                    <div class="system-corners-ticks"></div>
+                    <span class="directive-num">DIRECTIVE 07</span>
+                    <h3 class="directive-title">AI-Ready Behavioral Reports</h3>
+                    <p class="directive-desc">Generate reports across custom timeframes. Export formats include PDF for human review and CSV/Markdown structures tailored specifically for AI analysis. Feed your operational history directly to LLMs to query behavioral blocks, productive habits, and failure correlations.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- SECTION 06: SYSTEM INTERFACE OVERVIEW (SCREENSHOT FRAMES) -->
+        <section id="interface-section" class="container reveal-on-scroll">
+            <h2 class="section-title">System Interface</h2>
+            <div class="section-subtitle">Operator Control Screenshots</div>
+            
+            <div class="interface-grid">
+                <!-- Interface 1 -->
+                <div class="interface-row">
+                    <div class="system-frame system-corners" id="frame-initialization">
+                        <div class="system-corners-ticks"></div>
+                        <div class="system-frame-header">
+                            <span class="title">SYS_BOOT // CONSOLE</span>
+                            <span>AXIS_OS.BAK</span>
+                        </div>
+                        <div class="system-frame-inner">
+                            <img src="assets/images/screenshot_initialization.png" alt="AXIS Initialization boot terminal showing authentication controls" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="interface-info">
+                        <h3>System Boot Gateway</h3>
+                        <p>The operational entry portal. Establishes system integrity, authenticates the operator key, and compiles initial accountability parameters before launching the system interface.</p>
+                        <div class="feature-tags">
+                            <span class="tag highlight">Boot Loader</span>
+                            <span class="tag">Console Authentication</span>
+                            <span class="tag">System Checks</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interface 2 -->
+                <div class="interface-row reverse">
+                    <div class="interface-info">
+                        <h3>Operational Command</h3>
+                        <p>The daily execution interface. Displays tasks logged for the active day, provides status tickers (Done, Partially Done, Failed), and locks command options inside solid bracketed boxes.</p>
+                        <div class="feature-tags">
+                            <span class="tag highlight">Active Day</span>
+                            <span class="tag">Task Queue</span>
+                            <span class="tag">Metrics Ticker</span>
+                        </div>
+                    </div>
+                    <div class="system-frame system-corners" id="frame-ops-day">
+                        <div class="system-corners-ticks"></div>
+                        <div class="system-frame-header">
+                            <span class="title">SYS_OPS // ACTIVE_DAY</span>
+                            <span>OPERATIONAL_CONTROL</span>
+                        </div>
+                        <div class="system-frame-inner">
+                            <img src="assets/images/screenshot_operational_day.png" alt="AXIS Operational Day view displaying active task items" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interface 3 -->
+                <div class="interface-row">
+                    <div class="system-frame system-corners orange" id="frame-commit-lock">
+                        <div class="system-corners-ticks orange"></div>
+                        <div class="system-frame-header">
+                            <span class="title" style="color: var(--neon-orange);">SYS_ALERT // LOCKOUT</span>
+                            <span style="color: var(--neon-orange);">SECURE_COMMIT_PROT</span>
+                        </div>
+                        <div class="system-frame-inner">
+                            <img src="assets/images/screenshot_commit_day.png" alt="AXIS Commit Operational Day warning box overlay" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="interface-info orange">
+                        <h3 style="color: var(--neon-orange);">System Immutability Lock</h3>
+                        <p>The commitment verification popup. Warns that committing operational logs permanently freezes daily tasks. Disables addition, deletion, and editing systems, cementing commitments.</p>
+                        <div class="feature-tags">
+                            <span class="tag orange-highlight">Commit Lock</span>
+                            <span class="tag">Immutability Protocol</span>
+                            <span class="tag">Hard Freeze</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interface 4 -->
+                <div class="interface-row reverse">
+                    <div class="interface-info">
+                        <h3>Archive Export System</h3>
+                        <p>The reporting engine. Configures dates and compile operational logs into standard PDF files or AI-oriented structural Markdown and CSV data sets for analysis.</p>
+                        <div class="feature-tags">
+                            <span class="tag highlight">Export Console</span>
+                            <span class="tag">AI Data Structuring</span>
+                            <span class="tag">Archives</span>
+                        </div>
+                    </div>
+                    <div class="system-frame system-corners" id="frame-export-system">
+                        <div class="system-corners-ticks"></div>
+                        <div class="system-frame-header">
+                            <span class="title">SYS_ARCHIVE // EXPORT_UNIT</span>
+                            <span>REPORT_COMPILATION</span>
+                        </div>
+                        <div class="system-frame-inner">
+                            <img src="assets/images/screenshot_export_system.png" alt="AXIS Export report configuration screen" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interface 5 -->
+                <div class="interface-row">
+                    <!-- Mobile vertical screenshot needs container wrapper -->
+                    <div class="system-frame system-corners mobile-frame" id="frame-history">
+                        <div class="system-corners-ticks"></div>
+                        <div class="system-frame-header">
+                            <span class="title">SYS_MOBILE // ARCHIVE</span>
+                            <span>TACTICAL_GRID</span>
+                        </div>
+                        <div class="system-frame-inner">
+                            <img src="assets/images/screenshot_operational_history.png" alt="AXIS Operational History mobile view rendering calendar and logs" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="interface-info">
+                        <h3>Mobile Tactical Grid</h3>
+                        <p>Handheld history interface. Displays historical day results in a compact calendar grid with color-coded tags and allows review of permanent daily execution logs.</p>
+                        <div class="feature-tags">
+                            <span class="tag highlight">Mobile Ticker</span>
+                            <span class="tag">Execution Calendar</span>
+                            <span class="tag">Verification Logs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 07: FINAL TRANSMISSION -->
+        <section id="transmission-section" class="reveal-on-scroll">
+            <div class="container">
+                <div class="transmission-console system-corners orange" id="final-transmission-box">
+                    <div class="system-corners-ticks orange"></div>
+                    <h2 class="transmission-title text-glitch" id="transmission-header">AXIS is not a todo app.</h2>
+                    <div class="transmission-body">
+                        "It is a disciplined operational ledger designed to answer:
+                        <br>
+                        <strong>'How do I actually behave when my plans meet reality?'</strong>"
+                    </div>
+                    <div style="margin-top: 24px; margin-bottom: 32px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                        <a href="https://axis-ten-ochre.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-bracket" aria-label="Launch AXIS System">Use AXIS</a>
+                        <a href="https://drive.google.com/file/d/1y7j8P_VpXChe5e8_EFOQZDscC_uXU4do/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn-bracket orange" aria-label="Read AXIS documentation">Read about AXIS in Doc</a>
+                    </div>
+                    <div class="transmission-footer" id="transmission-footer-text">
+                        // SECURE SYSTEM TRANSMISSION ENDS //
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Footer Metadata -->
+        <footer class="page-footer">
+            <div class="container" style="display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center;">
+                <div style="line-height: 1.5; font-size: 11px;">◆ AXIS_OS // BUILD [ 07.13.37 ] - SYSTEM ARCHIVE PORTAL SECURED // ALL RIGHTS OPERATOR LOGGED</div>
+                <div style="font-size: 11px; color: var(--text-secondary); letter-spacing: 1px; line-height: 1.6;">
+                    SYSTEM ARCHITECT: <span style="color: var(--neon-cyan); font-weight: bold;">MAYANK TRIPATHI</span> // 
+                    <a href="https://github.com/me-mayank" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); text-decoration: none; border-bottom: 1px dashed var(--text-muted); padding-bottom: 1px; transition: color 0.2s;" onmouseover="this.style.color='var(--neon-cyan)'" onmouseout="this.style.color='var(--text-secondary)'">GITHUB</a> // 
+                    <a href="https://www.linkedin.com/in/mayank-tripathi-ba4917327/" target="_blank" rel="noopener noreferrer" style="color: var(--text-secondary); text-decoration: none; border-bottom: 1px dashed var(--text-muted); padding-bottom: 1px; transition: color 0.2s;" onmouseover="this.style.color='var(--neon-cyan)'" onmouseout="this.style.color='var(--text-secondary)'">LINKEDIN</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Link to Javascript controller -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1481,3 +1481,80 @@ body.glitch-idle * {
     animation: glitch-on 0.4s ease-in-out !important;
 }
 
+/* ==========================================================================
+   SECTION 06.5: THEME ORIGINS
+   ========================================================================== */
+#theme-origins-section {
+    padding: 80px 0;
+    border-top: 1px solid var(--border-dim);
+}
+.theme-console {
+    background: var(--bg-card);
+    border: 1px solid var(--border-dim);
+    padding: 32px;
+    margin-top: 40px;
+    position: relative;
+}
+.theme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+.theme-card {
+    display: flex;
+    flex-direction: column;
+}
+.theme-card h3 {
+    font-family: var(--font-heading);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-dim);
+    min-height: 54px; /* Align 1-line and 2-line headings at the same level */
+}
+.theme-card.highlight-cyan h3 {
+    color: var(--neon-cyan);
+    border-color: var(--neon-cyan-dim);
+}
+.theme-card.highlight-orange h3 {
+    color: var(--neon-orange);
+    border-color: var(--neon-orange-dim);
+}
+.theme-card.highlight-red h3 {
+    color: var(--neon-red);
+    border-color: var(--neon-red-dim);
+}
+.theme-card p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.6;
+}
+.theme-card strong {
+    color: var(--text-primary);
+}
+
+@media (max-width: 576px) {
+    #theme-origins-section {
+        padding: 48px 0;
+    }
+    .theme-console {
+        padding: 20px;
+        margin-top: 24px;
+    }
+    .theme-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .theme-card h3 {
+        font-size: 14px;
+        margin-bottom: 12px;
+        min-height: auto;
+    }
+    .theme-card p {
+        font-size: 13px;
+    }
+}
+

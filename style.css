@@ -1563,35 +1563,13 @@ body.glitch-idle * {
     padding: 80px 0;
     border-top: 1px solid var(--border-dim);
 }
-.section-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px;
-}
-.section-tag {
+.section-intro {
     font-family: var(--font-mono);
-    font-size: 14px;
-    color: var(--neon-cyan);
-    letter-spacing: 3px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-.section-heading {
-    font-family: var(--font-heading);
-    font-size: 36px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    margin-bottom: 8px;
-    color: var(--text-primary);
-}
-.section-subheading {
-    color: var(--neon-cyan);
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-bottom: 24px;
-    font-family: var(--font-mono);
+    font-size: 18px;
+    color: var(--text-secondary);
+    margin-bottom: 40px;
+    max-width: 800px;
+    line-height: 1.6;
 }
 .body-text {
     font-family: var(--font-mono);
@@ -1601,27 +1579,13 @@ body.glitch-idle * {
     max-width: 800px;
 }
 
-@media (max-width: 576px) {
-    .section-heading {
-        font-size: 26px;
-        letter-spacing: 2px;
-    }
-    .section-subheading {
-        font-size: 12px;
-        letter-spacing: 2px;
-    }
+@media (max-width: 992px) {
     .content-section {
         padding: 48px 0;
     }
-}
-@media (max-width: 360px) {
-    .section-heading {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-    .section-subheading {
-        font-size: 10px;
-        letter-spacing: 1.5px;
+    .section-intro {
+        font-size: 15px;
+        margin-bottom: 24px;
     }
 }
 
